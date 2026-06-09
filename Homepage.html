@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khyrene | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <header>
+        <nav>
+            <div class="logo">Khyrene</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark mode">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <div class="menu-icon" id="menu-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ==================== HOME ==================== -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+
+                <div class="hero-image-side">
+                    <div class="hero-img-wrap">
+                        <div class="hero-img-ring"></div>
+                        <div class="hero-img-ring hero-img-ring--2"></div>
+                        <div class="image-box">
+                            <img src="profilepic.png" alt="Khyrene Profile">
+                        </div>
+                        <div class="hero-badge hero-badge--1">
+                            <i class="fas fa-code"></i>
+                            <span>Full Stack Dev</span>
+                        </div>
+                        <div class="hero-badge hero-badge--2">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Industry Experience</span>
+                        </div>
+                        <div class="hero-badge hero-badge--3">
+                            <i class="fas fa-star"></i>
+                            <span>Open to Work</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-content-side">
+                    <div class="hero-eyebrow">
+                        <span class="hero-dot"></span>
+                        Available for opportunities
+                    </div>
+                    <h1>Hi, It's <span>Khyrene</span></h1>
+                    <h2 class="typing-text">I'm a <span id="element"></span></h2>
+                    <p>
+                        A passionate Full Stack Developer from Davao City, Philippines — building
+                        clean, functional web systems from frontend to backend using
+                        <strong>Laravel</strong>, <strong>MySQL</strong>, and modern deployment platforms.
+                        I also specialize in mobile app development with
+                        <strong>Flutter</strong>, delivering responsive and user-friendly applications across multiple
+                        platforms.
+                    </p>
+
+                    <div class="hero-chips">
+                        <span><i class="fab fa-laravel"></i> Laravel</span>
+                        <span><i class="fas fa-database"></i> MySQL</span>
+                        <span><i class="fab fa-js"></i> JavaScript</span>
+                        <span><i class="fab fa-figma"></i> Figma</span>
+                    </div>
+
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/khyrene-mae-utanes-7806823b6" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/khyrenedoescode" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://discord.com/users/khyrenedoescode" target="_blank"><i
+                                class="fab fa-discord"></i></a>
+                        <a href="https://www.instagram.com/khyrenedoescode/?hl=en" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+
+                    <div class="hero-ctas">
+                        <a href="#contact" class="hire-btn">Hire me</a>
+                        <a href="#about" class="hero-about-btn">
+                            About Me <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ==================== ABOUT ==================== -->
+        <section id="about" class="about">
+            <div class="about-container">
+
+                <div class="about-left">
+                    <div class="about-tag">— Who I Am</div>
+                    <h2 class="about-heading">A little bit <span>about me</span></h2>
+                    <p class="about-bio">
+                        I'm <strong>Khyrene Mae Utanes</strong>, a passionate Full Stack Developer and creative student
+                        from Davao, Philippines. I specialize in building complete web solutions — from crafting clean,
+                        responsive frontends to developing robust backend systems using <strong>Laravel</strong>,
+                        <strong>MySQL</strong>, and modern deployment platforms.
+                    </p>
+                    <p class="about-bio">
+                        I recently completed my internship at <strong>R Web Solutions Corp</strong>, where I built and
+                        deployed real-world full stack systems including an Operations Monitoring System and a Payment
+                        Monitoring System. I'm driven by a passion for writing clean code, solving complex problems,
+                        and delivering end-to-end digital experiences that actually work.
+                    </p>
+
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <span class="stat-num">4+</span>
+                            <span class="stat-label">Years Coding</span>
+                        </div>
+                        <div class="about-stat">
+                            <span class="stat-num">5+</span>
+                            <span class="stat-label">Projects Built</span>
+                        </div>
+                        <div class="about-stat">
+                            <span class="stat-num">11</span>
+                            <span class="stat-label">Certifications</span>
+                        </div>
+                    </div>
+
+                    <div class="about-actions">
+                        <div class="cv-dropdown-wrap">
+                            <button class="cv-btn" id="download-cv-btn">
+                                <i class="fas fa-download"></i>
+                                <span>Download CV</span>
+                                <i class="fas fa-chevron-down cv-chev"></i>
+                            </button>
+                            <div class="cv-dropdown" id="cv-dropdown">
+                                <a href="UTANES - RESUME.pdf" target="_blank" class="cv-drop-item">
+                                    <i class="fas fa-file-alt"></i>
+                                    <div>
+                                        <span class="cv-drop-title">Resume</span>
+                                        <span class="cv-drop-sub">One page summary</span>
+                                    </div>
+                                </a>
+                                <a href="UTANES - CURRICULUM VITAE.pdf" target="_blank" class="cv-drop-item">
+                                    <i class="fas fa-file"></i>
+                                    <div>
+                                        <span class="cv-drop-title">Curriculum Vitae</span>
+                                        <span class="cv-drop-sub">Full detailed CV</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#contact" class="about-contact-btn">Let's Talk</a>
+                    </div>
+                </div>
+
+                <div class="about-right">
+                    <div class="about-card-grid">
+
+                        <div class="about-info-card">
+                            <div class="aic-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="aic-text">
+                                <span class="aic-label">Location</span>
+                                <span class="aic-value">Davao, Philippines</span>
+                            </div>
+                        </div>
+
+                        <div class="about-info-card">
+                            <div class="aic-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="aic-text">
+                                <span class="aic-label">Education</span>
+                                <span class="aic-value">BS Information Technology</span>
+                            </div>
+                        </div>
+
+                        <div class="about-info-card">
+                            <div class="aic-icon"><i class="fas fa-briefcase"></i></div>
+                            <div class="aic-text">
+                                <span class="aic-label">Experience</span>
+                                <span class="aic-value">OJT @ R Web Solutions</span>
+                            </div>
+                        </div>
+
+                        <div class="about-info-card">
+                            <div class="aic-icon"><i class="fas fa-code"></i></div>
+                            <div class="aic-text">
+                                <span class="aic-label">Main Stack</span>
+                                <span class="aic-value">Laravel · MySQL · JS</span>
+                            </div>
+                        </div>
+
+                        <div class="about-info-card about-info-card--wide">
+                            <div class="aic-icon"><i class="fas fa-rocket"></i></div>
+                            <div class="aic-text">
+                                <span class="aic-label">Currently</span>
+                                <span class="aic-value">Open to new opportunities! 🚀</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ==================== EXPERIENCE ==================== -->
+        <section id="experience" class="experience">
+            <div class="section-container">
+                <div class="experience-header">
+                    <div class="section-eyebrow">
+                        <span class="section-eyebrow-dot"></span>
+                        Where I've worked
+                    </div>
+                    <h2 class="heading-left">Work <span>Experience</span></h2>
+                    <p class="skills-sub">My professional journey so far</p>
+                </div>
+
+                <div class="experience-timeline">
+
+                    <div class="exp-card">
+                        <div class="exp-left">
+                            <div class="exp-icon-wrap">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="exp-line"></div>
+                        </div>
+                        <div class="exp-body">
+                            <div class="exp-meta">
+                                <span class="exp-date"><i class="fas fa-calendar-alt"></i> March 2026 – May 2026</span>
+                                <span class="exp-badge exp-badge--dev">OJT</span>
+                            </div>
+                            <h3>Web Developer Intern</h3>
+                            <span class="exp-company"><i class="fas fa-building"></i> RWEB Solutions Corp.</span>
+                            <p>Developed and enhanced features for the Operation Monitoring System (OMS) using modern
+                                web development technologies during my On-the-Job Training.</p>
+                            <div class="exp-tags">
+                                <span>Laravel</span>
+                                <span>MySQL</span>
+                                <span>JavaScript</span>
+                                <span>Full Stack</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="exp-card">
+                        <div class="exp-left">
+                            <div class="exp-icon-wrap">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <div class="exp-line exp-line--last"></div>
+                        </div>
+                        <div class="exp-body">
+                            <div class="exp-meta">
+                                <span class="exp-date"><i class="fas fa-calendar-alt"></i> Dec 2025 – Jan 2026</span>
+                                <span class="exp-badge exp-badge--sales">Sales</span>
+                            </div>
+                            <h3>Call Center Agent</h3>
+                            <span class="exp-company"><i class="fas fa-building"></i> Six Eleven Global Services,
+                                Davao</span>
+                            <p>Handled customer interactions and drove sales targets as a Sales Agent in an
+                                international BPO environment.</p>
+                            <div class="exp-tags">
+                                <span>Customer Service</span>
+                                <span>Sales</span>
+                                <span>Communication</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== SERVICES ==================== -->
+        <section id="services" class="services">
+            <div class="section-container">
+                <div class="services-header">
+                    <div class="section-eyebrow">
+                        <span class="section-eyebrow-dot"></span>
+                        What I bring to the table
+                    </div>
+                    <h2 class="heading-left">My <span>Services</span></h2>
+                    <p class="skills-sub">End-to-end solutions I can build and maintain for you</p>
+                </div>
+
+                <div class="services-compact-grid">
+
+                    <div class="service-compact-card">
+                        <div class="scc-icon"><i class="fas fa-code"></i></div>
+                        <div class="scc-text">
+                            <h3>Web Development</h3>
+                            <p>HTML, CSS, JS & Laravel from scratch</p>
+                        </div>
+                        <div class="scc-num">01</div>
+                    </div>
+
+                    <div class="service-compact-card">
+                        <div class="scc-icon"><i class="fas fa-paint-brush"></i></div>
+                        <div class="scc-text">
+                            <h3>UI/UX Design</h3>
+                            <p>Figma-crafted interfaces</p>
+                        </div>
+                        <div class="scc-num">02</div>
+                    </div>
+
+                    <div class="service-compact-card">
+                        <div class="scc-icon"><i class="fas fa-database"></i></div>
+                        <div class="scc-text">
+                            <h3>Backend & Database</h3>
+                            <p>Laravel, MySQL & Firebase architecture</p>
+                        </div>
+                        <div class="scc-num">03</div>
+                    </div>
+
+                    <div class="service-compact-card">
+                        <div class="scc-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <div class="scc-text">
+                            <h3>Mobile App Dev</h3>
+                            <p>Flutter cross-platform apps</p>
+                        </div>
+                        <div class="scc-num">04</div>
+                    </div>
+
+                    <div class="service-compact-card">
+                        <div class="scc-icon"><i class="fas fa-th-large"></i></div>
+                        <div class="scc-text">
+                            <h3>Responsive Design</h3>
+                            <p>Pixel-perfect on every device</p>
+                        </div>
+                        <div class="scc-num">05</div>
+                    </div>
+
+                    <div class="service-compact-card">
+                        <div class="scc-icon"><i class="fas fa-server"></i></div>
+                        <div class="scc-text">
+                            <h3>Deployment</h3>
+                            <p>Render, Aiven & cloud platforms</p>
+                        </div>
+                        <div class="scc-num">06</div>
+                    </div>
+
+                    <div class="service-compact-card">
+                        <div class="scc-icon"><i class="fas fa-bug"></i></div>
+                        <div class="scc-text">
+                            <h3>Debugging & QA</h3>
+                            <p>Bug tracing & quality assurance</p>
+                        </div>
+                        <div class="scc-num">07</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== SKILLS ==================== -->
+        <section id="skills" class="skills">
+            <div class="section-container">
+                <div class="skills-header">
+                    <div class="section-eyebrow">
+                        <span class="section-eyebrow-dot"></span>
+                        What I work with
+                    </div>
+                    <h2 class="heading-left">Tools & <span>Technologies</span></h2>
+                    <p class="skills-sub">My Professional Skills</p>
+                </div>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-icon html"><i class="fab fa-html5"></i></div>
+                        <div class="tool-info">
+                            <h3>HTML5</h3><span>Markup Language</span>
+                        </div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon css"><i class="fab fa-css3-alt"></i></div>
+                        <div class="tool-info">
+                            <h3>CSS3</h3><span>Stylesheet</span>
+                        </div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon js"><i class="fab fa-js"></i></div>
+                        <div class="tool-info">
+                            <h3>JavaScript</h3><span>Language</span>
+                        </div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon flutter"><i class="fas fa-mobile-alt"></i></div>
+                        <div class="tool-info">
+                            <h3>Flutter</h3><span>Framework</span>
+                        </div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon csharp"><i class="fas fa-code"></i></div>
+                        <div class="tool-info">
+                            <h3>C#</h3><span>Language</span>
+                        </div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon sql"><i class="fas fa-database"></i></div>
+                        <div class="tool-info">
+                            <h3>SQL</h3><span>Database</span>
+                        </div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon firebase"><i class="fas fa-fire"></i></div>
+                        <div class="tool-info">
+                            <h3>Firebase</h3><span>Backend</span>
+                        </div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon figma"><i class="fab fa-figma"></i></div>
+                        <div class="tool-info">
+                            <h3>Figma</h3><span>Design App</span>
+                        </div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon canva"><i class="fas fa-palette"></i></div>
+                        <div class="tool-info">
+                            <h3>Canva</h3><span>Design App</span>
+                        </div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon github"><i class="fab fa-github"></i></div>
+                        <div class="tool-info">
+                            <h3>GitHub</h3><span>Repository</span>
+                        </div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon vscode"><i class="fas fa-laptop-code"></i></div>
+                        <div class="tool-info">
+                            <h3>VS Code</h3><span>Code Editor</span>
+                        </div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon python"><i class="fab fa-python"></i></div>
+                        <div class="tool-info">
+                            <h3>Python</h3><span>Language</span>
+                        </div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon laravel"><i class="fab fa-laravel"></i></div>
+                        <div class="tool-info">
+                            <h3>Laravel</h3><span>Framework</span>
+                        </div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon mysql"><i class="fas fa-database"></i></div>
+                        <div class="tool-info">
+                            <h3>MySQL</h3><span>Database</span>
+                        </div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon deploy"><i class="fas fa-server"></i></div>
+                        <div class="tool-info">
+                            <h3>Render / Aiven</h3><span>Deployment</span>
+                        </div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon php"><i class="fab fa-php"></i></div>
+                        <div class="tool-info">
+                            <h3>PHP</h3><span>Language</span>
+                        </div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon react"><i class="fab fa-react"></i></div>
+                        <div class="tool-info">
+                            <h3>React JS</h3><span>Framework</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PROJECTS ==================== -->
+        <section id="projects" class="projects">
+            <div class="section-container">
+                <div class="projects-header">
+                    <div class="section-eyebrow">
+                        <span class="section-eyebrow-dot"></span>
+                        What I've built
+                    </div>
+                    <h2 class="heading-left">My <span>Projects</span></h2>
+                    <p class="projects-sub">Showcasing a selection of projects that reflect my skills, creativity, and
+                        passion for building meaningful digital experiences.</p>
+                </div>
+                <div class="project-masonry">
+
+                    <a href="#" class="project-feature-card">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=700&q=80"
+                            alt="Corporate Landing Page">
+                        <div class="pfc-overlay">
+                            <div class="pfc-top">
+                                <span class="pfc-num">01</span>
+                                <span class="pfc-live"><i class="fas fa-external-link-alt"></i> Live</span>
+                            </div>
+                            <div class="pfc-bottom">
+                                <h3>Corporate Landing Page</h3>
+                                <div class="pfc-tags">
+                                    <span>HTML</span><span>CSS</span><span>JS</span><span>Laravel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="project-feature-card">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=700&q=80"
+                            alt="Mobile App Interface">
+                        <div class="pfc-overlay">
+                            <div class="pfc-top">
+                                <span class="pfc-num">02</span>
+                                <span class="pfc-live"><i class="fas fa-external-link-alt"></i> Live</span>
+                            </div>
+                            <div class="pfc-bottom">
+                                <h3>Mobile App Interface</h3>
+                                <div class="pfc-tags">
+                                    <span>Flutter</span><span>Firebase</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="project-feature-card">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=700&q=80"
+                            alt="E-commerce Dashboard">
+                        <div class="pfc-overlay">
+                            <div class="pfc-top">
+                                <span class="pfc-num">03</span>
+                                <span class="pfc-live"><i class="fas fa-external-link-alt"></i> Live</span>
+                            </div>
+                            <div class="pfc-bottom">
+                                <h3>E-commerce Dashboard</h3>
+                                <div class="pfc-tags">
+                                    <span>Laravel</span><span>MySQL</span><span>JS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="project-feature-card">
+                        <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=700&q=80"
+                            alt="Portfolio Website">
+                        <div class="pfc-overlay">
+                            <div class="pfc-top">
+                                <span class="pfc-num">04</span>
+                                <span class="pfc-live"><i class="fas fa-external-link-alt"></i> Live</span>
+                            </div>
+                            <div class="pfc-bottom">
+                                <h3>Portfolio Website</h3>
+                                <div class="pfc-tags">
+                                    <span>HTML</span><span>CSS</span><span>JS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="project-feature-card">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=700&q=80"
+                            alt="Mobile App UI">
+                        <div class="pfc-overlay">
+                            <div class="pfc-top">
+                                <span class="pfc-num">05</span>
+                                <span class="pfc-live"><i class="fas fa-external-link-alt"></i> Live</span>
+                            </div>
+                            <div class="pfc-bottom">
+                                <h3>Mobile App UI</h3>
+                                <div class="pfc-tags">
+                                    <span>Flutter</span><span>Firebase</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="project-feature-card">
+                        <img src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=700&q=80"
+                            alt="UI/UX Case Study">
+                        <div class="pfc-overlay">
+                            <div class="pfc-top">
+                                <span class="pfc-num">06</span>
+                                <span class="pfc-live"><i class="fas fa-external-link-alt"></i> Live</span>
+                            </div>
+                            <div class="pfc-bottom">
+                                <h3>UI/UX Case Study</h3>
+                                <div class="pfc-tags">
+                                    <span>Figma</span><span>Canva</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== CERTIFICATES ==================== -->
+        <section id="certificates" class="certificates">
+            <div class="section-container">
+                <div class="certs-header">
+                    <div class="section-eyebrow">
+                        <span class="section-eyebrow-dot"></span>
+                        Verified credentials
+                    </div>
+                    <div class="certs-heading-row">
+                        <h2 class="heading-left">My <span>Certificates</span></h2>
+                        <div class="certs-count-badge">
+                            <span id="certs-count">0</span>
+                            <span>Total</span>
+                        </div>
+                    </div>
+                    <p class="skills-sub">Verified credentials & achievements</p>
+                </div>
+                <div class="certs-new-grid" id="certs-grid">
+
+                    <a href="CAPSTONE WRITING 1.png" target="_blank" class="cert-new-card">
+
+                        <div class="cert-badge"><i class="fas fa-scroll"></i></div>
+
+                        <div class="cert-new-body">
+                            <div class="cert-new-top">
+                                <span class="cert-issuer hcdc-badge">HCDC</span>
+                                <span class="cert-date">2024</span>
+                            </div>
+
+                            <h3>Capstone Project Writing 1</h3>
+
+                            <p>
+                                Certificate of Participation for active involvement in the Capstone Project
+                                Writing 1 Workshop held at Holy Cross of Davao College.
+                            </p>
+
+                            <div class="cert-tags">
+                                <span>Capstone</span>
+                                <span>Research Writing</span>
+                                <span>Workshop</span>
+                                <span>HCDC</span>
+                            </div>
+                        </div>
+
+                        <div class="cert-verify-link">
+                            <span>View</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+
+                    </a>
+
+                    <a href="CAPSTONE WRITING 2.png" target="_blank" class="cert-new-card">
+
+                        <div class="cert-badge"><i class="fas fa-scroll"></i></div>
+
+                        <div class="cert-new-body">
+                            <div class="cert-new-top">
+                                <span class="cert-issuer hcdc-badge">HCDC</span>
+                                <span class="cert-date">2024</span>
+                            </div>
+
+                            <h3>Capstone Project Writing 2</h3>
+
+                            <p>
+                                Certificate of Participation for active involvement in the Capstone Project
+                                Writing 2 Workshop held at Holy Cross of Davao College.
+                            </p>
+
+                            <div class="cert-tags">
+                                <span>Capstone</span>
+                                <span>Research Writing</span>
+                                <span>Workshop</span>
+                                <span>HCDC</span>
+                            </div>
+                        </div>
+
+                        <div class="cert-verify-link">
+                            <span>View</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+
+                    </a>
+
+                    <a href="OJT COC.pdf" target="_blank" class="cert-new-card">
+
+                        <div class="cert-badge"><i class="fas fa-briefcase"></i></div>
+
+                        <div class="cert-new-body">
+                            <div class="cert-new-top">
+                                <span class="cert-issuer rweb-badge">R Web Solutions</span>
+                                <span class="cert-date">2026</span>
+                            </div>
+
+                            <h3>OJT Certificate of Completion</h3>
+
+                            <p>
+                                Certified completion of On-the-Job Training as a Web Developer at
+                                R Web Solutions Corp., rendering a total of 486 hours during the
+                                training period.
+                            </p>
+
+                            <div class="cert-tags">
+                                <span>OJT</span>
+                                <span>Web Developer</span>
+                                <span>486 Hours</span>
+                                <span>Full Stack</span>
+                            </div>
+                        </div>
+
+                        <div class="cert-verify-link">
+                            <span>View</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+
+                    </a>
+
+                    <a href="https://simpli-web.app.link/e/xIOjYjfhO3b" target="_blank" class="cert-new-card">
+                        <div class="cert-badge"><i class="fas fa-layer-group"></i></div>
+                        <div class="cert-new-body">
+                            <div class="cert-new-top">
+                                <span class="cert-issuer simplilearn-badge">Simplilearn</span>
+                                <span class="cert-date">2026</span>
+                            </div>
+                            <h3>Full-Stack Development 101</h3>
+                            <p>
+                                Completed Simplilearn's Full-Stack Development 101 course, demonstrating
+                                initiative and commitment to deepening full-stack development skills.
+                            </p>
+                            <div class="cert-tags">
+                                <span>Full Stack</span>
+                                <span>Web Development</span>
+                                <span>Simplilearn</span>
+                                <span>SkillUp</span>
+                            </div>
+                        </div>
+                        <div class="cert-verify-link">
+                            <span>Verify</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </a>
+
+                    <a href="MCITS 2023 CERT.pdf" target="_blank" class="cert-new-card">
+
+                        <div class="cert-badge"><i class="fas fa-laptop"></i></div>
+
+                        <div class="cert-new-body">
+                            <div class="cert-new-top">
+                                <span class="cert-issuer psite-badge">PSITE</span>
+                                <span class="cert-date">2023</span>
+                            </div>
+
+                            <h3>MCITS 2023</h3>
+
+                            <p>
+                                Certificate of Participation for active involvement in the Mindanao
+                                Conference for IT Students (MCITS) 2023, held at HCDC Gymnasium,
+                                Davao City.
+                            </p>
+
+                            <div class="cert-tags">
+                                <span>IT Conference</span>
+                                <span>PSITE XI</span>
+                                <span>Mindanao</span>
+                                <span>2023</span>
+                            </div>
+                        </div>
+
+                        <div class="cert-verify-link">
+                            <span>View</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+
+                    </a>
+
+                    <a href="MCITS 2024 CERT.pdf" target="_blank" class="cert-new-card">
+
+                        <div class="cert-badge"><i class="fas fa-laptop"></i></div>
+
+                        <div class="cert-new-body">
+                            <div class="cert-new-top">
+                                <span class="cert-issuer psite-badge">PSITE</span>
+                                <span class="cert-date">2024</span>
+                            </div>
+
+                            <h3>MCITS 2024</h3>
+
+                            <p>
+                                Certificate of Participation for active involvement in the Mindanao
+                                Conference of Information Technology (MCITS) 2024, held at Mapúa
+                                Malayan Colleges Mindanao, Davao City.
+                            </p>
+
+                            <div class="cert-tags">
+                                <span>IT Conference</span>
+                                <span>PSITE XI</span>
+                                <span>Mindanao</span>
+                                <span>2024</span>
+                            </div>
+                        </div>
+
+                        <div class="cert-verify-link">
+                            <span>View</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+
+                    </a>
+
+                    <a href="https://www.codecred.dev/verify/58cbe3a0-243a-4ac9-b131-561b613e5ecf" target="_blank"
+                        class="cert-new-card">
+                        <div class="cert-badge"><i class="fas fa-medal"></i></div>
+                        <div class="cert-new-body">
+                            <div class="cert-new-top">
+                                <span class="cert-issuer codecred-badge">CodeCred</span>
+                                <span class="cert-date">2026</span>
+                            </div>
+                            <h3>HTML Fundamentals</h3>
+                            <p>Demonstrated proficiency in HTML5 — structure, semantic markup, forms, and accessibility.
+                            </p>
+                            <div class="cert-tags">
+                                <span>HTML5</span><span>Semantic
+                                    Markup</span><span>Forms</span><span>Accessibility</span>
+                            </div>
+                        </div>
+                        <div class="cert-verify-link">
+                            <span>Verify</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </a>
+
+                    <a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=b690b48d-562e-466d-b2e9-e427b5ce571e&"
+                        target="_blank" class="cert-new-card">
+                        <div class="cert-badge"><i class="fas fa-award"></i></div>
+                        <div class="cert-new-body">
+                            <div class="cert-new-top">
+                                <span class="cert-issuer matlab-badge">MathWorks</span>
+                                <span class="cert-date">2026</span>
+                            </div>
+                            <h3>MATLAB Onramp</h3>
+                            <p>Completed MATLAB Onramp course covering fundamentals such as matrices, data
+                                visualization, scripts, and programming basics.</p>
+                            <div class="cert-tags">
+                                <span>MATLAB</span><span>Data
+                                    Visualization</span><span>Matrices</span><span>Programming</span>
+                            </div>
+                        </div>
+                        <div class="cert-verify-link">
+                            <span>Verify</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </a>
+
+                    <a href="https://www.kaggle.com/learn/certification/khyrenedoescode/python" target="_blank"
+                        class="cert-new-card">
+
+                        <div class="cert-badge"><i class="fas fa-certificate"></i></div>
+
+                        <div class="cert-new-body">
+                            <div class="cert-new-top">
+                                <span class="cert-issuer kaggle-badge">Kaggle</span>
+                                <span class="cert-date">2026</span>
+                            </div>
+
+                            <h3>Python</h3>
+
+                            <p>
+                                Completed Kaggle’s Python course covering core programming concepts,
+                                data structures, loops, functions, and problem-solving in Python.
+                            </p>
+
+                            <div class="cert-tags">
+                                <span>Python</span>
+                                <span>Programming</span>
+                                <span>Data Structures</span>
+                                <span>Problem Solving</span>
+                            </div>
+                        </div>
+
+                        <div class="cert-verify-link">
+                            <span>Verify</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </a>
+
+                    <a href="https://www.kaggle.com/learn/certification/khyrenedoescode/intro-to-sql" target="_blank"
+                        class="cert-new-card">
+
+                        <div class="cert-badge"><i class="fas fa-database"></i></div>
+
+                        <div class="cert-new-body">
+                            <div class="cert-new-top">
+                                <span class="cert-issuer kaggle-badge">Kaggle</span>
+                                <span class="cert-date">2026</span>
+                            </div>
+
+                            <h3>Intro to SQL</h3>
+
+                            <p>
+                                Completed Kaggle’s Intro to SQL course covering querying datasets,
+                                filtering data, JOIN operations, and analytical SQL techniques using BigQuery.
+                            </p>
+
+                            <div class="cert-tags">
+                                <span>SQL</span>
+                                <span>BigQuery</span>
+                                <span>Joins</span>
+                                <span>Data Analysis</span>
+                            </div>
+                        </div>
+
+                        <div class="cert-verify-link">
+                            <span>Verify</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+
+                    </a>
+
+                    <a href="https://www.kaggle.com/learn/certification/khyrenedoescode/intro-to-machine-learning"
+                        target="_blank" class="cert-new-card">
+
+                        <div class="cert-badge"><i class="fas fa-brain"></i></div>
+
+                        <div class="cert-new-body">
+                            <div class="cert-new-top">
+                                <span class="cert-issuer kaggle-badge">Kaggle</span>
+                                <span class="cert-date">2026</span>
+                            </div>
+
+                            <h3>Intro to Machine Learning</h3>
+
+                            <p>
+                                Completed Kaggle's Intro to Machine Learning course covering core ML concepts,
+                                decision trees, model validation, and underfitting vs overfitting.
+                            </p>
+
+                            <div class="cert-tags">
+                                <span>Machine Learning</span>
+                                <span>Python</span>
+                                <span>Decision Trees</span>
+                                <span>Model Validation</span>
+                            </div>
+                        </div>
+
+                        <div class="cert-verify-link">
+                            <span>Verify</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+
+                    </a>
+                </div>
+
+                <div class="certs-show-more">
+                    <button class="certs-toggle-btn" id="certs-toggle-btn">
+                        <span>Show More</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== CONTACT ==================== -->
+        <section id="contact" class="contact">
+            <div class="section-container">
+                <div class="contact-layout">
+
+                    <div class="contact-reach">
+                        <div class="section-eyebrow">
+                            <span class="section-eyebrow-dot"></span>
+                            Get in touch
+                        </div>
+                        <h2 class="heading-left">Contact <span>Me</span></h2>
+                        <p class="contact-desc">I'm always open to discussing new projects, creative ideas, or
+                            opportunities. Feel free to reach out!</p>
+
+                        <a href="https://mail.google.com/mail/?view=cm&to=khyrenemaeutanes@gmail.com" class="reach-card"
+                            target="_blank">
+                            <div class="reach-icon gmail"><i class="fas fa-envelope"></i></div>
+                            <div class="reach-info">
+                                <h4>Email Me</h4>
+                                <span>khyrenemaeutanes&#64;gmail.com</span>
+                            </div>
+                            <i class="fas fa-arrow-right reach-arrow"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/khyrene-mae-utanes-7806823b6" target="_blank"
+                            class="reach-card">
+                            <div class="reach-icon linkedin"><i class="fab fa-linkedin-in"></i></div>
+                            <div class="reach-info">
+                                <h4>LinkedIn</h4>
+                                <span>Khyrene Mae Utanes</span>
+                            </div>
+                            <i class="fas fa-arrow-right reach-arrow"></i>
+                        </a>
+
+                        <a href="https://github.com/khyrenedoescode" target="_blank" class="reach-card">
+                            <div class="reach-icon github-c"><i class="fab fa-github"></i></div>
+                            <div class="reach-info">
+                                <h4>GitHub</h4>
+                                <span>khyrenedoescode</span>
+                            </div>
+                            <i class="fas fa-arrow-right reach-arrow"></i>
+                        </a>
+
+                        <a href="https://discord.com/users/khyrenedoescode" target="_blank" class="reach-card">
+                            <div class="reach-icon discord-c"><i class="fab fa-discord"></i></div>
+                            <div class="reach-info">
+                                <h4>Discord</h4>
+                                <span>khyrenedoescode</span>
+                            </div>
+                            <i class="fas fa-arrow-right reach-arrow"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/khyrenedoescode/?hl=en" target="_blank" class="reach-card">
+                            <div class="reach-icon instagram-c"><i class="fab fa-instagram"></i></div>
+                            <div class="reach-info">
+                                <h4>Instagram</h4>
+                                <span>@khyrenedoescode</span>
+                            </div>
+                            <i class="fas fa-arrow-right reach-arrow"></i>
+                        </a>
+                    </div>
+
+                    <div class="contact-form-side">
+                        <h3 class="contact-form-title">Send a <span>Message</span></h3>
+                        <p class="contact-form-sub">Fill out the form and I'll get back to you as soon as possible.</p>
+                        <form action="https://formspree.io/f/xnjypvwa" method="POST">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Full Name</label>
+                                    <input type="text" name="Name" placeholder="Your name..." required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="Email" name="email" placeholder="Your email..." required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Message</label>
+                                <textarea name="Message" rows="6" placeholder="Tell me about your project..."
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="send-btn">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-logo">Khyrene</div>
+            <ul class="footer-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/khyrene-mae-utanes-7806823b6" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/khyrenedoescode" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://discord.com/users/khyrenedoescode" target="_blank"><i class="fab fa-discord"></i></a>
+                <a href="https://www.instagram.com/khyrenedoescode/?hl=en" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Khyrene. All Rights Reserved.</p>
+            <a href="#home" class="footer-top-btn"><i class="fas fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- ✅ THE TWO MISSING SCRIPT TAGS — this is why nothing was working -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
